@@ -1,5 +1,37 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
+
+body {
+	background: #ddd;
+}
+
+.centerContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* ---------------------------- PAGE CONTENT AREA --------------------------- */
+
+.content-main-wrapper {
+	margin-top: 30px;
+	padding: 20px 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+/* ------------------------ styling for allmeetups.js ----------------------- */
+
+/* ----------------------------------- end ---------------------------------- */
+
+/* ------------------------ END OF PAGE CONTENT AREA ------------------------ */
